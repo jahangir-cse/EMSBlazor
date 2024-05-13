@@ -1,0 +1,43 @@
+﻿@using Client.Pages.OtherPages
+@using Microsoft.AspNetCore.Authorization
+@inherits LayoutComponentBase
+@attribute [Authorize]
+<style>
+    .collapse:not(.show) {
+        display: inherit;
+    }
+</style>
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <AuthorizeView>
+                <Authorized>
+                    <ProfileDropDown></ProfileDropDown>
+                </Authorized>
+                <NotAuthorized>
+                    <a class="btn btn-none" href="identity/account/login">Login</a>
+                    <a class="btn btn-none" href="identity/account/register">Register</a>
+                </NotAuthorized>
+            </AuthorizeView>                        
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+<Syncfusion.Blazor.Popups.SfDialogProvider />
+
+@code{
+    async Task LogoutClicked()
+    {
+        var logoutModel = new UserSession();
+        var custonAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        await custonAuthStateProvider.UpdateAuthenticationState(logoutModel);
+        NavManager.NavigateTo("/identity/account/login", forceLoad: true);
+    }
+}
