@@ -13,67 +13,107 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Client
 build_property.RootNamespace = Client
-build_property.ProjectDir = E:\Project\VisualStudio\BlazorApp\EMS\Client\
+build_property.ProjectDir = E:\Project\VisualStudio\BlazorApp\EMSBlazor\Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Project\VisualStudio\BlazorApp\EMS\Client
+build_property.MSBuildProjectDirectory = E:\Project\VisualStudio\BlazorApp\EMSBlazor\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Project/VisualStudio/BlazorApp/EMS/Client/App.razor]
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/VisualStudio/BlazorApp/EMS/Client/Layout/AuthenticationLayout.razor]
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Layout/AuthenticationLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEF1dGhlbnRpY2F0aW9uTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/VisualStudio/BlazorApp/EMS/Client/Pages/AccountPages/LoginPage.razor]
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/AccountPages/LoginPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFBhZ2VzXExvZ2luUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/VisualStudio/BlazorApp/EMS/Client/Pages/AccountPages/RegisterPage.razor]
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/AccountPages/RegisterPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFBhZ2VzXFJlZ2lzdGVyUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/VisualStudio/BlazorApp/EMS/Client/Pages/AuthenticationPage.razor]
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/AuthenticationPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25QYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/VisualStudio/BlazorApp/EMS/Client/Pages/ContentPage/DepartmentPages/GeneralDepartmentDialog.razor]
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/ContentPage/DepartmentPages/BranchDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcRGVwYXJ0bWVudFBhZ2VzXEJyYW5jaERpYWxvZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/ContentPage/DepartmentPages/BranchPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcRGVwYXJ0bWVudFBhZ2VzXEJyYW5jaFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/ContentPage/DepartmentPages/DepartmentDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcRGVwYXJ0bWVudFBhZ2VzXERlcGFydG1lbnREaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/ContentPage/DepartmentPages/DepartmentPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcRGVwYXJ0bWVudFBhZ2VzXERlcGFydG1lbnRQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/ContentPage/DepartmentPages/GeneralDepartmentDialog.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcRGVwYXJ0bWVudFBhZ2VzXEdlbmVyYWxEZXBhcnRtZW50RGlhbG9nLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/VisualStudio/BlazorApp/EMS/Client/Pages/ContentPage/DepartmentPages/GeneralDepartmentPage.razor]
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/ContentPage/DepartmentPages/GeneralDepartmentPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcRGVwYXJ0bWVudFBhZ2VzXEdlbmVyYWxEZXBhcnRtZW50UGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/VisualStudio/BlazorApp/EMS/Client/Pages/ContentPage/HomePage.razor]
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/ContentPage/HomePage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcSG9tZVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/VisualStudio/BlazorApp/EMS/Client/Pages/OtherPages/ButtonLoadingSpinner.razor]
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/ContentPage/LocationPage/CityDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcTG9jYXRpb25QYWdlXENpdHlEaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/ContentPage/LocationPage/CityPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcTG9jYXRpb25QYWdlXENpdHlQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/ContentPage/LocationPage/CountryDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcTG9jYXRpb25QYWdlXENvdW50cnlEaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/ContentPage/LocationPage/CountryPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcTG9jYXRpb25QYWdlXENvdW50cnlQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/ContentPage/LocationPage/TownDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcTG9jYXRpb25QYWdlXFRvd25EaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/ContentPage/LocationPage/TownPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFBhZ2VcTG9jYXRpb25QYWdlXFRvd25QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/OtherPages/ButtonLoadingSpinner.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3RoZXJQYWdlc1xCdXR0b25Mb2FkaW5nU3Bpbm5lci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/VisualStudio/BlazorApp/EMS/Client/Pages/OtherPages/ProfileDropDown.razor]
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/OtherPages/ProfileDropDown.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3RoZXJQYWdlc1xQcm9maWxlRHJvcERvd24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/VisualStudio/BlazorApp/EMS/Client/Pages/OtherPages/TableBanner.razor]
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Pages/OtherPages/TableBanner.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3RoZXJQYWdlc1xUYWJsZUJhbm5lci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/VisualStudio/BlazorApp/EMS/Client/_Imports.razor]
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/VisualStudio/BlazorApp/EMS/Client/Layout/MainLayout.razor]
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-tmopy668it
 
-[E:/Project/VisualStudio/BlazorApp/EMS/Client/Layout/NavMenu.razor]
+[E:/Project/VisualStudio/BlazorApp/EMSBlazor/Client/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-9qkkwgv1yd

@@ -15,15 +15,15 @@ namespace ServerLibrary.Repositories.Implementations
 
             appDbContext.Branches.Remove(dep);
             await Commit();
-            return NotFound();
+            return Success();
         }
-        public async Task<List<Branch>> GetAll() => await appDbContext.Branches.ToListAsync();
+        public async Task<List<Branch>> GetAll() => await appDbContext.Branches.AsNoTracking().Include(d => d.Department).ToListAsync();
 
         public async Task<Branch> GetById(int id) => await appDbContext.Branches.FindAsync(id);
 
         public async Task<GeneralResponse> Insert(Branch item)
         {
-            if (!await CheckName(item.Name!)) return new GeneralResponse(false, "Department already added");
+            if (!await CheckName(item.Name!)) return new GeneralResponse(false, "Branch already added");
             appDbContext.Branches.Add(item);
             await Commit();
             return Success();
@@ -31,9 +31,10 @@ namespace ServerLibrary.Repositories.Implementations
 
         public async Task<GeneralResponse> Update(Branch item)
         {
-            var dep = await appDbContext.Branches.FindAsync(item.Id);
-            if (dep is null) return NotFound();
-            dep.Name = item.Name;
+            var branch = await appDbContext.Branches.FindAsync(item.Id);
+            if (branch is null) return NotFound();
+            branch.Name = item.Name;
+            branch.DepartmentId = item.DepartmentId;
             await Commit();
             return Success();
         }

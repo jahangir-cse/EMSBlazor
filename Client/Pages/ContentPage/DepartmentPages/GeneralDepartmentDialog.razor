@@ -36,7 +36,7 @@
     async void Save()
     {
         if (string.IsNullOrEmpty(GeneralDepartment.Name))
-            await dialogService.AlertAsync("You need to provide Department name.", "Alert!");
+            await dialogService.AlertAsync("You need to provide General Department name.", "Alert!");
         else
             await HandleSaveOperationEvent.InvokeAsync(GeneralDepartment);
     }

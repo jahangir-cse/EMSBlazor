@@ -1,10 +1,16 @@
 ﻿@page "/home/dashboard"
 @using Client.Pages.ContentPage.DepartmentPages
+@using Client.Pages.ContentPage.LocationPage
 @using Client.Pages.OtherPages
 @layout MainLayout
 
 <TableBanner />
 <GeneralDepartmentPage />
+<DepartmentPage />
+<BranchPage />
+<CountryPage />
+<CityPage />
+<TownPage />
 
 @code {
     [CascadingParameter] public Task<AuthenticationState> AuthenticationState { get; set; }

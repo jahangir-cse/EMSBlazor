@@ -16,9 +16,9 @@ namespace ServerLibrary.Repositories.Implementations
 
             appDbContext.Citys.Remove(dep);
             await Commit();
-            return NotFound();
+            return Success();
         }
-        public async Task<List<City>> GetAll() => await appDbContext.Citys.ToListAsync();
+        public async Task<List<City>> GetAll() => await appDbContext.Citys.AsNoTracking().Include(c => c.Country).ToListAsync();
 
         public async Task<City> GetById(int id) => await appDbContext.Citys.FindAsync(id);
 

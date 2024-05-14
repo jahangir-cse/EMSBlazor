@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BiNRqhtynXs/20mKhPJKHEcBhn9cSS0SerijVvkvoDNW6o9VX5axvud/qPx/R4R7If2MavoISoK0er/U6Mha7A==",
+  "dgSpecHash": "2PNnMIN9s4MJZ9pB8EGM0wfR0rZhkmydPWw4xTjcczibFPqTR0t6iOilFfmS1SS0yQQLYkM/Ovi0gmr0yZdTew==",
   "success": true,
-  "projectFilePath": "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\ServerLibrary\\ServerLibrary.csproj",
+  "projectFilePath": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\ServerLibrary\\ServerLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jahangir\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Jahangir\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

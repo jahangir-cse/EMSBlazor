@@ -15,7 +15,7 @@ namespace ServerLibrary.Repositories.Implementations
 
             appDbContext.Countries.Remove(dep);
             await Commit();
-            return NotFound();
+            return Success();
         }
         public async Task<List<Country>> GetAll() => await appDbContext.Countries.ToListAsync();
 

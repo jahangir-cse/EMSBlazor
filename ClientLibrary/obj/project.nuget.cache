@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T/kx1JMXQ+gCCc7DAACfvIj6hPLr1dkVLGSTpa55+E+QLcEEuMZiRoc3XiCdP8J+XcTYVzvXImYwTi/u4/sZ5w==",
+  "dgSpecHash": "O/zYtXSY1LyS1goQmYJAdNt08ChhCnWkWs0oDRc4kk32d+WsW0gShi1HtzkA/coiiURvJmwHT8RbayOEfolB9w==",
   "success": true,
-  "projectFilePath": "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\ClientLibrary\\ClientLibrary.csproj",
+  "projectFilePath": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\ClientLibrary\\ClientLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jahangir\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Jahangir\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",

@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-header d-flex justify-content-between align-items-center">
                         <h4>General Department</h4>
-                        <button class="btn btn-outline-success" @onclick="OpenDialog"><i class="bi bi-plus-circle-dotted"></i>Add Department</button>
+                        <button class="btn btn-outline-success" @onclick="OpenDialog"><i class="bi bi-plus-circle-dotted"></i>Add General Department</button>
                     </div>
                     <div class="card-body">
                         <table class="table table-striped">
@@ -30,8 +30,8 @@
                                             <td>@item.Id</td>
                                             <td>@item.Name</td>
                                             <td>
-                                                <i class="bi bi-pencil text-info" id="cursorStyle" @onclick="()=>EditClicked(item)"></i>
-                                                <i class="bi bi-trash text-danger" id="cursorStyle" @onclick="() => DeleteClicked(item)"></i>
+                                                <i class="bi bi-pencil text-info pointer" id="cursorStyle" @onclick="()=>EditClicked(item)"></i>
+                                                <i class="bi bi-trash text-danger pointer" id="cursorStyle" @onclick="() => DeleteClicked(item)"></i>
                                             </td>
                                         </tr>
                                         count++;

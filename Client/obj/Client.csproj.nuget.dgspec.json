@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\Client\\Client.csproj": {}
+    "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\Client\\Client.csproj": {}
   },
   "projects": {
-    "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\BaseLibrary\\BaseLibrary.csproj": {
+    "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\BaseLibrary\\BaseLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\BaseLibrary\\BaseLibrary.csproj",
+        "projectUniqueName": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\BaseLibrary\\BaseLibrary.csproj",
         "projectName": "BaseLibrary",
-        "projectPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\BaseLibrary\\BaseLibrary.csproj",
+        "projectPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\BaseLibrary\\BaseLibrary.csproj",
         "packagesPath": "C:\\Users\\Jahangir\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\BaseLibrary\\obj\\",
+        "outputPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\BaseLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -75,14 +75,14 @@
         }
       }
     },
-    "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\ClientLibrary\\ClientLibrary.csproj": {
+    "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\ClientLibrary\\ClientLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\ClientLibrary\\ClientLibrary.csproj",
+        "projectUniqueName": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\ClientLibrary\\ClientLibrary.csproj",
         "projectName": "ClientLibrary",
-        "projectPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\ClientLibrary\\ClientLibrary.csproj",
+        "projectPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\ClientLibrary\\ClientLibrary.csproj",
         "packagesPath": "C:\\Users\\Jahangir\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\ClientLibrary\\obj\\",
+        "outputPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\ClientLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -104,8 +104,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\BaseLibrary\\BaseLibrary.csproj": {
-                "projectPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\BaseLibrary\\BaseLibrary.csproj"
+              "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\BaseLibrary\\BaseLibrary.csproj": {
+                "projectPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\BaseLibrary\\BaseLibrary.csproj"
               }
             }
           }
@@ -162,14 +162,14 @@
         }
       }
     },
-    "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\Client\\Client.csproj": {
+    "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\Client\\Client.csproj",
+        "projectUniqueName": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\Client\\Client.csproj",
+        "projectPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\Jahangir\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\Client\\obj\\",
+        "outputPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -191,11 +191,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\BaseLibrary\\BaseLibrary.csproj": {
-                "projectPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\BaseLibrary\\BaseLibrary.csproj"
+              "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\BaseLibrary\\BaseLibrary.csproj": {
+                "projectPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\BaseLibrary\\BaseLibrary.csproj"
               },
-              "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\ClientLibrary\\ClientLibrary.csproj": {
-                "projectPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMS\\ClientLibrary\\ClientLibrary.csproj"
+              "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\ClientLibrary\\ClientLibrary.csproj": {
+                "projectPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\ClientLibrary\\ClientLibrary.csproj"
               }
             }
           }
@@ -253,6 +253,10 @@
               "version": "[25.2.3, )"
             },
             "Syncfusion.Blazor.Core": {
+              "target": "Package",
+              "version": "[25.2.3, )"
+            },
+            "Syncfusion.Blazor.DropDowns": {
               "target": "Package",
               "version": "[25.2.3, )"
             },
