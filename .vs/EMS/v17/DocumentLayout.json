@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75F47B56-5E58-4125-8C91-B723C9FA4E8A}|Client\\Client.csproj|e:\\project\\visualstudio\\blazorapp\\emsblazor\\client\\pages\\contentpage\\locationpage\\towndialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75F47B56-5E58-4125-8C91-B723C9FA4E8A}|Client\\Client.csproj|solutionrelative:client\\pages\\contentpage\\locationpage\\towndialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{28977011-F4FC-4E00-9CD6-0AABDD024E13}|ServerLibrary\\ServerLibrary.csproj|e:\\project\\visualstudio\\blazorapp\\emsblazor\\serverlibrary\\repositories\\implementations\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28977011-F4FC-4E00-9CD6-0AABDD024E13}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositories\\implementations\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F47B56-5E58-4125-8C91-B723C9FA4E8A}|Client\\Client.csproj|e:\\project\\visualstudio\\blazorapp\\emsblazor\\client\\pages\\contentpage\\locationpage\\townpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75F47B56-5E58-4125-8C91-B723C9FA4E8A}|Client\\Client.csproj|solutionrelative:client\\pages\\contentpage\\locationpage\\townpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0A93A808-1ED3-40E6-817E-9E03C23683D9}|Server\\Server.csproj|e:\\project\\visualstudio\\blazorapp\\emsblazor\\server\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A93A808-1ED3-40E6-817E-9E03C23683D9}|Server\\Server.csproj|solutionrelative:server\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28977011-F4FC-4E00-9CD6-0AABDD024E13}|ServerLibrary\\ServerLibrary.csproj|e:\\project\\visualstudio\\blazorapp\\emsblazor\\serverlibrary\\repositories\\implementations\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28977011-F4FC-4E00-9CD6-0AABDD024E13}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositories\\implementations\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28977011-F4FC-4E00-9CD6-0AABDD024E13}|ServerLibrary\\ServerLibrary.csproj|e:\\project\\visualstudio\\blazorapp\\emsblazor\\serverlibrary\\repositories\\implementations\\townrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28977011-F4FC-4E00-9CD6-0AABDD024E13}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositories\\implementations\\townrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75F47B56-5E58-4125-8C91-B723C9FA4E8A}|Client\\Client.csproj|e:\\project\\visualstudio\\blazorapp\\emsblazor\\client\\pages\\contentpage\\userpages\\userpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75F47B56-5E58-4125-8C91-B723C9FA4E8A}|Client\\Client.csproj|solutionrelative:client\\pages\\contentpage\\userpages\\userpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TownRepository.cs",
-              "DocumentMoniker": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\ServerLibrary\\Repositories\\Implementations\\TownRepository.cs",
-              "RelativeDocumentMoniker": "ServerLibrary\\Repositories\\Implementations\\TownRepository.cs",
-              "ToolTip": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\ServerLibrary\\Repositories\\Implementations\\TownRepository.cs",
-              "RelativeToolTip": "ServerLibrary\\Repositories\\Implementations\\TownRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBIAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T08:47:17.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CityRepository.cs",
-              "DocumentMoniker": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\ServerLibrary\\Repositories\\Implementations\\CityRepository.cs",
-              "RelativeDocumentMoniker": "ServerLibrary\\Repositories\\Implementations\\CityRepository.cs",
-              "ToolTip": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\ServerLibrary\\Repositories\\Implementations\\CityRepository.cs",
-              "RelativeToolTip": "ServerLibrary\\Repositories\\Implementations\\CityRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T08:46:21.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TownPage.razor",
-              "DocumentMoniker": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\Client\\Pages\\ContentPage\\LocationPage\\TownPage.razor",
-              "RelativeDocumentMoniker": "Client\\Pages\\ContentPage\\LocationPage\\TownPage.razor",
-              "ToolTip": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\Client\\Pages\\ContentPage\\LocationPage\\TownPage.razor",
-              "RelativeToolTip": "Client\\Pages\\ContentPage\\LocationPage\\TownPage.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-14T08:34:24.107Z",
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\Server\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\Server\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Server\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T11:48:29.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TownDialog.razor",
-              "DocumentMoniker": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\Client\\Pages\\ContentPage\\LocationPage\\TownDialog.razor",
-              "RelativeDocumentMoniker": "Client\\Pages\\ContentPage\\LocationPage\\TownDialog.razor",
-              "ToolTip": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\Client\\Pages\\ContentPage\\LocationPage\\TownDialog.razor",
-              "RelativeToolTip": "Client\\Pages\\ContentPage\\LocationPage\\TownDialog.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAABDAAAA",
+              "Title": "UserAccountRepository.cs",
+              "DocumentMoniker": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
+              "RelativeDocumentMoniker": "ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
+              "ToolTip": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
+              "RelativeToolTip": "ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAADwv60AAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T11:48:16.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserPage.razor",
+              "DocumentMoniker": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\Client\\Pages\\ContentPage\\UserPages\\UserPage.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\ContentPage\\UserPages\\UserPage.razor",
+              "ToolTip": "E:\\Project\\VisualStudio\\BlazorApp\\EMSBlazor\\Client\\Pages\\ContentPage\\UserPages\\UserPage.razor",
+              "RelativeToolTip": "Client\\Pages\\ContentPage\\UserPages\\UserPage.razor",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAjwFMAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-14T08:30:20.603Z",
+              "WhenOpened": "2024-05-16T11:44:49.778Z",
               "EditorCaption": ""
             }
           ]

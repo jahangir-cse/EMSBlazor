@@ -2,6 +2,7 @@
 @using Client.Pages.ContentPage.DepartmentPages
 @using Client.Pages.ContentPage.LocationPage
 @using Client.Pages.OtherPages
+@using Client.Pages.ContentPage.UserPages
 @layout MainLayout
 
 <TableBanner />
@@ -11,6 +12,7 @@
 <CountryPage />
 <CityPage />
 <TownPage />
+<UserPage />
 
 @code {
     [CascadingParameter] public Task<AuthenticationState> AuthenticationState { get; set; }
