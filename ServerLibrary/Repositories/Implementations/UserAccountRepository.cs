@@ -157,7 +157,8 @@ namespace ServerLibrary.Repositories.Implementations
         }
         public async Task<GeneralResponse> UpdateUser(ManageUser user)
         {
-            var getRole = (await SystemRoles()).FirstOrDefault(r => r.Name!.Equals(user.Role));
+            var systemRole = await SystemRoles();
+            var getRole = systemRole.Where(r => r.Id.ToString() == user.Role).FirstOrDefault();
             var userRole = await appDbContext.UserRoles.FirstOrDefaultAsync(u => u.UserId == user.UserId);
             userRole!.RoleId = getRole!.Id;
             await appDbContext.SaveChangesAsync();

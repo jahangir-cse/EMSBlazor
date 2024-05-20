@@ -13,10 +13,21 @@
 @using BaseLibrary.DTOs
 @using ClientLibrary.Helpers
 @using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Authorization
 @using ClientLibrary.Services.Contracts
 @using Syncfusion.Blazor.Popups
 @using Client.ApplicationStates
 @using Syncfusion.Blazor.DropDowns
+@using Syncfusion.Blazor.Grids
+@using Client.Pages.ContentPage.DepartmentPages
+@using Client.Pages.ContentPage.LocationPage
+@using Client.Pages.OtherPages
+@using Client.Pages.ContentPage.UserPages
+@using Client.Pages.EmployeePages
+@using Client.Pages.OtherPages.DoctorPages
+@using Client.Pages.OtherPages.OvertimePages
+@using Client.Pages.OtherPages.SanctionPages
+@using Client.Pages.OtherPages.VacationPages
 
 @inject AuthenticationStateProvider AuthStateProvider
 @inject NavigationManager NavManager
@@ -36,3 +47,11 @@
 @inject IGenericServiceInterface<Town> townService
 
 @inject IGenericServiceInterface<Employee> employeeService
+
+@inject IGenericServiceInterface<Doctor> doctorService
+@inject IGenericServiceInterface<Vacation> vacationService
+@inject IGenericServiceInterface<VacationType> vacationTypeService
+@inject IGenericServiceInterface<Sanction> sanctionService
+@inject IGenericServiceInterface<SanctionType> sanctionTypeService
+@inject IGenericServiceInterface<Overtime> overtimeService
+@inject IGenericServiceInterface<OvertimeType> overtimeTypeService

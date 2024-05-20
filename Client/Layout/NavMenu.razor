@@ -1,4 +1,6 @@
-﻿<AuthorizeView>
+﻿@attribute [Authorize]
+
+<AuthorizeView Roles="Admin">
     <Authorized>
         <div class="top-row ps-3 navbar navbar-dark">
             <div class="container-fluid">
@@ -56,6 +58,18 @@
                             </li>
                             <li>
                                 <a class="nav-link" @onclick="TownClicked">Town</a>
+                            </li>
+                            <li>
+                                <hr />
+                            </li>
+                            <li>
+                                <a class="nav-link" @onclick="OvertimeTypeClicked">Overtime Type</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" @onclick="SanctionTypeClicked">Sanction Type</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" @onclick="VacationTypeClicked">Vacation Type</a>
                             </li>
                             <li>
                                 <hr />
@@ -119,4 +133,8 @@
     void TownClicked() => allState.TownClicked();
     void EmployeeClicked() => allState.EmployeeClicked();
     void UserClicked() => allState.UserClicked();
+
+    void OvertimeTypeClicked() => allState.OvertimeTypeClicked();
+    void SanctionTypeClicked() => allState.SanctionTypeClicked();
+    void VacationTypeClicked() => allState.VacationTypeClicked();
 }

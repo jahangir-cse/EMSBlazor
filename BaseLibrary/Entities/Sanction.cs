@@ -11,6 +11,7 @@ namespace BaseLibrary.Entities
         public string Punishment { get; set; } = string.Empty;
         [Required]
         public DateTime PunishmentDate { get; set; }
+        public int SanctionTypeId { get; set; }
         public SanctionType? SanctionType { get; set; }
     }
 }

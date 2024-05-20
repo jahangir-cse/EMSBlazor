@@ -1,8 +1,4 @@
 ﻿@page "/home/dashboard"
-@using Client.Pages.ContentPage.DepartmentPages
-@using Client.Pages.ContentPage.LocationPage
-@using Client.Pages.OtherPages
-@using Client.Pages.ContentPage.UserPages
 @layout MainLayout
 
 <TableBanner />
@@ -13,6 +9,14 @@
 <CityPage />
 <TownPage />
 <UserPage />
+<DoctorPage />
+<OvertimePage />
+<OvertimeTypePage />
+<SanctionPage />
+<SanctionTypePage />
+<VacationPage />
+<VacationTypePage />
+<EmployeePage />
 
 @code {
     [CascadingParameter] public Task<AuthenticationState> AuthenticationState { get; set; }

@@ -1,0 +1,22 @@
+﻿@if (ShowDetailsPage)
+{
+    <div>
+        @EmployeeDetails.Name
+        <img src="@EmployeeDetails.Photo" class="img-fluid" />
+        @EmployeeDetails.Branch.Department.GeneralDepartment.Name
+        @EmployeeDetails.Branch.Department.Name
+        @EmployeeDetails.Branch.Name
+        @EmployeeDetails.Town.City.Country.Name
+        @EmployeeDetails.Town.City.Name
+        @EmployeeDetails.Town.Name
+    </div>
+
+    <button class="btn btn-danger" @onclick="DetailsPageCloseBtnClicked">Close</button>
+}
+
+@code {
+    [Parameter] public bool ShowDetailsPage { get; set; }
+    [Parameter] public Employee EmployeeDetails { get; set; } = new();
+    [Parameter] public EventCallback HandleDetailsPageCloseBtnClicked { get; set; }
+    async Task DetailsPageCloseBtnClicked() => await HandleDetailsPageCloseBtnClicked.InvokeAsync();
+}

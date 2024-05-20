@@ -1,0 +1,134 @@
+﻿@implements IDisposable
+@if (allState.ShowVacationType)
+{
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h4>Vacation Type</h4>
+                        <button class="btn btn-outline-success" @onclick="OpenDialog"><i class="bi bi-plus-circle-dotted"></i>Add Type</button>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Type</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (VacationType is not null)
+                                {
+                                    int count = 1;
+                                    foreach (var item in VacationTypes)
+                                    {
+                                        <tr>
+                                            <th scope="row">@count</th>
+                                            <td>@item.Id</td>
+                                            <td>@item.Name</td>
+                                            <td>
+                                                <i class="bi bi-pencil text-info pointer" @onclick="()=>EditClicked(item)"></i>
+                                                <i class="bi bi-trash text-danger pointer" @onclick="() => DeleteClicked(item)"></i>
+                                            </td>
+                                        </tr>
+                                        count++;
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="4">
+                                            <div class="alert alert-info text-center">No Vacation Type added yet!</div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<VacationTypeDialog @ref="vacationTypeDialog" HandleSaveOperationEvent="HandleSaveOperationEvent" VacationType="VacationType" />
+@code {
+    VacationTypeDialog? vacationTypeDialog;
+    VacationType VacationType = new();
+    public string Title { get; set; } = "Add";
+    public List<VacationType> VacationTypes { get; set; } = new();
+
+    protected async override Task OnInitializedAsync()
+    {
+        await GetVacationTypes();
+        allState.Action += StateHasChanged;
+    }
+
+    private async Task GetVacationTypes()
+    {
+        VacationTypes = await vacationTypeService.GetAll(Constants.VacationTypeBaseUrl);
+    }
+
+    private async Task HandleSaveOperationEvent(VacationType type)
+    {
+        bool successCheck = false;
+        if (type.Id > 0)
+        {
+            var result = await vacationTypeService.Update(type, Constants.VacationTypeBaseUrl);
+            successCheck = await DisplayMessage(result.Flag, result.Message);
+        }
+        else
+        {
+            var result = await vacationTypeService.Insert(type, Constants.VacationTypeBaseUrl);
+            successCheck = await DisplayMessage(result.Flag, result.Message);
+        }
+        if (successCheck)
+        {
+            VacationType = new();
+            await GetVacationTypes();
+            vacationTypeDialog?.ChangeTitle("Add");
+        }
+    }
+
+    private void EditClicked(VacationType type)
+    {
+        vacationTypeDialog?.ChangeTitle("Update");
+        VacationType = type;
+        OpenDialog();
+    }
+
+    private async Task DeleteClicked(VacationType type)
+    {
+        bool confirm = await dialogService.ConfirmAsync($"Are you sure you want to delete {type.Name} ?", "Confirm Delete");
+        if (!confirm) return;
+
+        var response = await vacationTypeService.DeleteById(type.Id, Constants.VacationTypeBaseUrl);
+        if (await DisplayMessage(response.Flag, response.Message))
+            await GetVacationTypes();
+    }
+
+    private async Task<bool> DisplayMessage(bool flag, string message)
+    {
+        if (flag)
+        {
+            await dialogService.AlertAsync(message, "Success Operation");
+            return true;
+        }
+        else
+        {
+            await dialogService.AlertAsync(message, "Alert!");
+            return false;
+        }
+    }
+
+    void OpenDialog()
+    {
+        vacationTypeDialog?.OpenDialog();
+    }
+    public void Dispose()
+    {
+        allState.Action -= StateHasChanged;
+    }
+}
